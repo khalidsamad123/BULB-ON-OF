@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #ff6f69, #ffcc33);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.off-image{
+    width: 400px;
+    margin-top: 20px;
+}
+.title{
+    width: 100%;
+}
+.title h1{
+    background-color: gold;
+    width:100%;
+    padding: 20px;
+}
+.btn{
+    margin-top: 20px;
+    display: block;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+
+
+
+
